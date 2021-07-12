@@ -5,7 +5,7 @@ addons:
   ssh_known_hosts: ssh-oncletom.alwaysdata.net
 
 env:
-  - HUGO_VERSION="0.31" PATH="$HOME/.local/bin:$PATH"
+  - HUGO_VERSION="0.53" PATH="$HOME/.local/bin:$PATH"
 
 before_install:
   - curl -sSL https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz | tar xzv
